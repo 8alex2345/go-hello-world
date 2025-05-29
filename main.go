@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+<<<<<<< HEAD
 	matrix := make([][]int, 10)
 	counter := 0
 	for x := 0; x < 10; x++ {
@@ -17,4 +18,7 @@ func main() {
 		fmt.Println(matrix[x])
 	}
 
+=======
+	fmt.Println("Hello, world!")
+>>>>>>> 0ed05ddc815f190c9296c8254797ff5d6c1df042
 }
