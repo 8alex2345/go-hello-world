@@ -5,20 +5,15 @@ import (
 )
 
 func main() {
-<<<<<<< HEAD
-	matrix := make([][]int, 10)
-	counter := 0
-	for x := 0; x < 10; x++ {
-		matrix[x] = make([]int, 10)
-		for y := 0; y < 10; y++ {
-			matrix[x][y] = counter
-			counter++
-
-		}
-		fmt.Println(matrix[x])
+	var num int
+	fmt.Scan(&num)
+	if num >= 90 && num <= 100 {
+		fmt.Println("Отлично")
+	} else if num > 70 && num < 90 {
+		fmt.Println("Хорошо")
+	} else if num >= 50 && num < 70 {
+		fmt.Println("Удовлетворительно")
+	} else if num < 50 {
+		fmt.Println("Неудовлетворительно")
 	}
-
-=======
-	fmt.Println("Hello, world!")
->>>>>>> 0ed05ddc815f190c9296c8254797ff5d6c1df042
 }
